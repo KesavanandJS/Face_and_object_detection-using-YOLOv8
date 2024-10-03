@@ -1,4 +1,9 @@
-#install the age_net.caffemodel file and place in the working directory 
+# Install the age_net.caffemodel file to detect the age and place the file in the working directory 
+# use this link in the terminal to download the file 
+# Link - [wget https://github.com/spmallick/learnopencv/blob/master/AgeGender/AgeNet.caffemodel?raw=true -O age_net.caffemodel]
+
+# If you don’t have wget installed, you can use the curl command instead:
+# Link - [curl -L -o age_net.caffemodel https://github.com/spmallick/learnopencv/blob/master/AgeGender/AgeNet.caffemodel?raw=true]
 
 import cv2
 from ultralytics import YOLO
